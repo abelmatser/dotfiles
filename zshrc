@@ -30,13 +30,15 @@ alias ls='exa'
 alias cat='bat'
 
 # common git alias
-alias git='/usr/local/bin/git' # take the brew install
+# alias git='/usr/local/bin/git' # take the brew install
 alias ga='git add '
 alias gb='git branch '
 alias gc='git add . && git commit -m '
-alias gl="git log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar on %cd)%C(reset) %C(cyan)%s%C(reset) %C(red)by %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+# alias gl="git log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar on %cd)%C(reset) %C(cyan)%s%C(reset) %C(red)by %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias gl="git log --graph --oneline"
 alias goo='git checkout '
 alias gp='git pull && git push'
+alias gpm='git switch master && gp && git switch -'
 alias gr='git add -u && git commit -m '
 alias gs='git status --untracked-files'
 
