@@ -4,10 +4,10 @@ Host github.com
   IdentityFile ~/.ssh/github
   IdentitiesOnly=yes
 
-Host wavpi
-  HostName 10.0.1.33
-  User sayanee
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentityFile ~/.ssh/wavpi
-  IdentitiesOnly=yes
+# Host wavpi
+#   HostName 10.0.1.33
+#   User sayanee
+#   AddKeysToAgent yes
+#   UseKeychain yes
+#   IdentityFile ~/.ssh/wavpi
+#   IdentitiesOnly=yes
