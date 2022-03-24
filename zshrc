@@ -33,7 +33,7 @@ alias cat='bat'
 # alias git='/usr/local/bin/git' # take the brew install
 alias ga='git add '
 alias gb='git branch '
-alias gc='git add . && git commit -m '
+alias gc='git commit -m '
 alias gd='git diff '
 # alias gl="git log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar on %cd)%C(reset) %C(cyan)%s%C(reset) %C(red)by %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias gl="git log --graph --oneline"
