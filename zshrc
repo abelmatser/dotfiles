@@ -37,6 +37,7 @@ alias gc='git commit -m '
 alias gd='git diff '
 # alias gl="git log --graph --abbrev-commit --decorate --date=short --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar on %cd)%C(reset) %C(cyan)%s%C(reset) %C(red)by %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias gl="git log --graph --oneline"
+alias gla="gl --all"
 alias goo='git checkout '
 alias gp='git pull && git push'
 alias gpm='git switch master && gp && git switch -'
